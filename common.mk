@@ -10,6 +10,7 @@ PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,$(LOCAL_PATH)/ttf,$(TARGET
 
 # Font Overalys
 PRODUCT_PACKAGES += \
+    fonts_customization.xml \
     FontArbutusSourceOverlay \
     FontArvoLatoOverlay \
     FontRubikRubikOverlay \
