@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: DerpFest AOSP
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+
+    <!-- Anaheim overlay -->
+    <string name="font_anaheim_overlay" translatable="false">Anaheim</string>
+
+</resources>
