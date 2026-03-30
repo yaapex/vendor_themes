@@ -142,3 +142,8 @@ PRODUCT_COPY_FILES += \
     vendor/themes/product/media/audio/ui/reverse_charging_end.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ui/reverse_charging_end.ogg \
     vendor/themes/product/media/audio/ui/reverse_charging_start.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ui/reverse_charging_start.ogg \
     vendor/themes/product/media/audio/ui/screenshot.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ui/screenshot.ogg
+
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.config.alarm_alert=Fresh_start.ogg \
+    ro.config.notification_sound=Eureka.ogg \
+    ro.config.ringtone=Your_new_adventure.ogg
